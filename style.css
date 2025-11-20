@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f4f8;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#map {
+  height: 500px;
+  width: 80%;
+  margin: 20px auto;
+  border: 2px solid #007BFF;
+}
+
+#results {
+  margin-top: 20px;
+}

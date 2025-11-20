@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مقارنة GPS وSnap GPS</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>مقارنة GPS وSnap GPS - الموقع الحالي</h1>
+  
+  <button id="getLocationBtn">حدد موقعي الآن</button>
+
+  <div id="map"></div>
+
+  <div id="results">
+    <h3>النتائج:</h3>
+    <p id="distance"></p>
+    <p id="accurate"></p>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
